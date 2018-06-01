@@ -8,9 +8,7 @@ namespace Drupal\accessibility_tool\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use \Drupal\Core\Link;
-//use \Drupal\Core\Site\Settings;
 use \Drupal\Core\Url;
-
 
 /**
  * Provides a accessibility tool Block.
@@ -61,7 +59,6 @@ class AccessibilityToolBlock extends BlockBase {
               'zoom-out-btn',
             ],
             'title' => $this->t('Decrease font size'),
-
           ],
         ]
       ),
@@ -77,7 +74,6 @@ class AccessibilityToolBlock extends BlockBase {
               'refresh-btn',
             ],
             'title' => $this->t('Reset'),
-
           ],
         ]
       ),
