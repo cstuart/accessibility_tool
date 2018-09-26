@@ -27,6 +27,7 @@
 }
 .block-accessibility-tool-block .content a {
   background-color: #fff;
+  border: none;
   color: #000;
   -webkit-border-radius: 9999px;
   -moz-border-radius: 9999px;
@@ -41,7 +42,7 @@
   display: inline-block;
   font-size: 28px;
   height: 36px;
-  line-height: 40px;
+  line-height: 38px;
   text-align: center;
   width: 36px;
 }
